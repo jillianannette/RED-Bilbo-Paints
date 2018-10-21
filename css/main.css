@@ -1,0 +1,79 @@
+.navbar-brand {
+    font-family: 'Special Elite', serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Special Elite', serif;	
+}
+
+.bg-primary {
+	background-color: #008375 !important;
+}
+
+/*.bg-secondary {
+	background-color: #ff735c !important;
+}*/
+
+.masthead {
+  background-image: url(../img/background.jpg);
+  background-color: #333333; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* BEGIN Blockquote Styling */
+
+blockquote{
+  font-size: 1.4em;
+  margin:50px auto;
+  font-family:'Lato', sans-serif;;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #78C0A8 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+/* END Blockquote Styling */
+
+hr {
+	max-width: 15rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid .25rem;
+    margin-top: 2.5rem;
+}
+
+.footer {
+  background-color: #008375 !important;
+}
+
+.copyright {
+  background-color: #2c3e50!important;
+}
