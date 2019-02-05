@@ -10,9 +10,13 @@ h1, h2, h3, h4, h5 {
 	background-color: #008375 !important;
 }
 
-/*.bg-secondary {
-	background-color: #ff735c !important;
-}*/
+.bg-secondary {
+	background-color: #6c757d !important;
+}
+
+.text-secondary {
+  color: #6c757d !important;
+}
 
 .masthead {
   background-image: url(../img/background.jpg);
@@ -63,11 +67,20 @@ blockquote span{
 
 hr {
 	max-width: 15rem;
-    padding: 0;
-    text-align: center;
-    border: none;
-    border-top: solid .25rem;
-    margin-top: 2.5rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid  #6c757d .25rem;
+  margin-top: 2.5rem;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  opacity: 100;
+  background-color: rgba(255,255,255,.3);
+}
+
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+    text-shadow: 2px 2px 10px black;
 }
 
 .footer {
@@ -75,5 +88,5 @@ hr {
 }
 
 .copyright {
-  background-color: #2c3e50!important;
+  background-color: #6c757d !important;
 }
