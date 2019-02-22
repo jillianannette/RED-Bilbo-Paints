@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5 {
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+img {
+  height: 100%;
+}
+
 /* BEGIN Blockquote Styling */
 
 blockquote{
