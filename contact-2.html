@@ -30,8 +30,9 @@
 
     <style type="text/css">
       .form-label-left{ width:150px; }
-      .form-line{ padding-top:12px; padding-bottom:12px; padding-left:0px; padding-right:0px; }
+      .form-line{ padding-top:5px; padding-bottom:5px; padding-left:0px; padding-right:0px; }
       .form-label-right{ width:150px; }
+      .form-all{ width:690px; color:#555 !important; font-family:"Lato", sans-serif; font-size:16px; }
     </style>
     <style type="text/css" id="form-designer-style"> /* Injected CSS Code */
       .form-label.form-label-auto { display: block; float: none; text-align: left; width: inherit; } /*__INSPECT_SEPERATOR__*/ /* Injected CSS Code */
@@ -95,13 +96,15 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"Contact 
       <li class="form-line" data-type="control_textbox" id="id_3"> 
         <!--label class="form-label form-label-top form-label-auto" id="label_3" for="input_3"> </label>-->
         <div id="cid_3" class="form-group floating-label-form-group controls mb-0 pb-2">
-          <input type="text" id="input_3" name="q3_name" data-type="input-textbox" class="form-textbox floating-label-form-group" size="20" value="" placeholder="Name" data-component="textbox" />
+          <label>Name</label>
+          <input type="text" id="input_3" name="q3_name" data-type="input-textbox" class="form-textbox" size="20" value="" placeholder="Name" data-component="textbox" />
           <p class="help-block text-danger"></p>
         </div>
       </li>
       <li class="form-line" data-type="control_textbox" id="id_4">
         <!--<label class="form-label form-label-top form-label-auto" id="label_4" for="input_4"> </label>-->
         <div id="cid_4" class="form-group floating-label-form-group controls mb-0 pb-2">
+          <label>Email Address</label>
           <input type="text" id="input_4" name="q4_email" data-type="input-textbox" class="form-textbox" size="20" value="" placeholder="Email" data-component="textbox" />
           <p class="help-block text-danger"></p>
         </div>
@@ -109,6 +112,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"Contact 
       <li class="form-line" data-type="control_textbox" id="id_5">
         <!--<label class="form-label form-label-top form-label-auto" id="label_5" for="input_5"> </label>-->
         <div id="cid_5" class="form-group floating-label-form-group controls mb-0 pb-2">
+          <label>Phone Number</label>
           <input type="text" id="input_5" name="q5_typeA" data-type="input-textbox" class="form-textbox" size="20" value="" placeholder="Phone Number" data-component="textbox" />
           <p class="help-block text-danger"></p>
         </div>
@@ -116,14 +120,15 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"Contact 
       <li class="form-line" data-type="control_textarea" id="id_6">
         <!--<label class="form-label form-label-top form-label-auto" id="label_6" for="input_6"> </label>-->
         <div id="cid_6" class="form-group floating-label-form-group controls mb-0 pb-2">
+          <label>Message</label>
           <textarea id="input_6" class="form-textarea" name="q6_typeA6" cols="40" rows="6" placeholder="Message" data-component="textarea"></textarea>
           <p class="help-block text-danger"></p>
         </div>
       </li>
       <li class="form-line" data-type="control_button" id="id_2">
         <div id="cid_2" class="form-input-wide">
-          <div style="margin-left:156px" class="form-buttons-wrapper">
-            <button id="input_2" type="submit" class="form-submit-button" data-component="button"> Submit </button>
+          <div class="form-buttons-wrapper">
+            <button id="input_2" type="submit" class="btn btn-primary btn-xl" data-component="button">Send</button>
           </div>
         </div>
       </li>
