@@ -69,6 +69,10 @@ blockquote span{
 
 /* END Blockquote Styling */
 
+.jotform-form {
+    padding: 0;
+}
+
 hr {
 	max-width: 15rem;
   padding: 0;
